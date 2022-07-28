@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Welcome to your Home page of site</h3>
+
+
+    <script>
+        // Alert-It is the pop-op message that is show as notification, also it not writtten any value;
+        alert('Your battery is low');
+
+        // Prompt- It is the input type message where we take some value from user;
+        let name=prompt("What is your name?",'Guest');
+        console.log(name);
+
+        // Confirm-It is the cross-check message from user side.
+        let logout=confirm('Do you want to logout from portal?');
+        console.log(logout);
+
+
+        let age=confirm("Are your age is above 18?");
+        console.log(age);
+        if(age){
+            alert('You can access the site')
+        }
+        else{
+            alert("You can't access the site")
+        }
+
+    </script>
+</body>
+</html>
